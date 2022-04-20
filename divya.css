@@ -1,0 +1,63 @@
+div {
+  text-align: center;
+  background: purple;
+  color: rgb(255, 255, 255);
+}
+h1{
+  background:black;
+   
+  text-align: center;
+  color:white;
+  font-style: italic; normal,italic,oblique
+ 
+  padding: 13px 13px 13px 20px (top,right,bottom,left)
+  margin: 10px 20px ; (top and bottom , left and right,"auto" means equal amt of margin )  
+}
+h2{
+  border: 3px solid blue ;    dashed,dotted,ridged
+  border-radius: 10px;
+  font-variant: small-caps;
+  font-weight: bolder; (normal,bold,bolder,lighter)
+}
+h3{
+  position:absolute;
+  font-size: large;  (xx-large,x-large,large,medium,small,xx-small,25pt,150%)
+}
+h4{
+  line-height:normal; (5em,25pt,200%)
+}
+#form{     it is id(.id)
+   font-family: "gill sans";
+   color : blue;
+}
+
+.classname{ (.movie)
+  color:white; 
+  background:steelblue;
+}
+
+span#author{  (if we wnat to select particular id and suthor is an id)
+  text-transform: uppercase;
+}
+
+#skills ol li {   skills is id of ol
+  color: purple; 
+  background-color:white;
+}
+
+#skills ul li {   skills is id of ol
+  color: purple; 
+}`    
+
+h3+p{ (paras after the h3 tags ;)
+  background:black;
+  color : white;
+}
+p[class]{ (specific para with class)
+  background: grey;
+
+}
+
+p[id]{ (specific para with id)
+ background: pink;
+}
